@@ -1,0 +1,32 @@
+<h2>Applicability</h2>
+
+<p>This technique relates to touch and pointer operating modes.</p>
+
+<p>This technique relates to:</p>
+<ul>
+<li>Success Criterion 2.5.1 Touch: All functions available by touch are still available by touch after system assistive technology that remaps touch gestures is turned on. (Level A) 
+</ul>
+
+<h2>Description</h2>
+<p>Custom controls web interfaces may not be suitable for touch access when the built-in screen reader of mobile operating systems is enabled.</p>
+
+<h2>Examples</h2>
+
+<h3>Example 1</h3>
+
+<h2>Resources</h2>
+
+<h2>Related Techniques</h2>
+
+<h2>Tests</h2>
+
+<h3>Procedure</h3>
+<ol>
+<li>For each custom control that is operated with touch, check that touch operation is also possible when the screen reader is activated</li>
+<li>If touch operation is not possible when the screen reader is activated, check that an equivalent alternative means to carry out the underlying function is provided</li>
+</ol>
+<h3>Expected Results</h3>
+<ul>
+<li>Check #1 or #2 above are true.</li>
+</ul>
+
